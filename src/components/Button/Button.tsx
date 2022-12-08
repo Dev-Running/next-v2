@@ -4,10 +4,8 @@ const buttonStyles = cva('transition-all z-10 ', {
   variants: {
     intent: {
       primary: 'bg-primary hover:brightness-90 text-zinc-900 ',
-      secondary:
-        'bg-zinc-900 text-zinc-300 hover:text-white hover:bg-zinc-900/90 dark:bg-white dark:text-zinc-900 dark:hover:bg-white/90 ',
-      outlineGradientPrimary:
-        'dark:bg-black bg-white dark:hover:bg-black/0 hover:bg-black/0 ',
+      secondary: 'bg-white text-zinc-900 hover:bg-white/90 ',
+      outlineGradientPrimary: 'bg-black  hover:bg-black/0  ',
     },
     weight: {
       light: 'font-light',

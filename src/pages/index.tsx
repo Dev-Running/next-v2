@@ -2,16 +2,16 @@ import { Button, Header } from '@/components'
 export default function Home() {
   return (
     <>
-      <main className="relative min-h-[300vh] bg-white dark:bg-black">
+      <main className="relative min-h-[300vh] bg-black">
         <Header />
-        <section className="relative flex  flex-col  items-center justify-start gap-10 py-[8.75rem] backdrop-blur-3xl dark:bg-startGradient">
+        <section className="relative flex  flex-col  items-center justify-start gap-10 bg-startGradient py-[8.75rem] backdrop-blur-3xl">
           <div className="flex flex-col items-center ">
             <div className=" w- -mt-1 flex items-center justify-center gap-5 ">
               <div
                 id="gradient"
                 className=" flex w-auto  items-center justify-center bg-clip-text pt-[1.15rem] drop-shadow-lg "
               >
-                <h1 className="h-full w-full  text-center text-8xl font-black text-transparent  dark:text-transparent">
+                <h1 className="h-full w-full  text-center text-8xl font-black text-transparent">
                   DÊ O
                 </h1>
               </div>
@@ -19,7 +19,7 @@ export default function Home() {
                 id="gradient1"
                 className="flex w-auto items-center justify-center bg-clip-text pt-4 drop-shadow-lg"
               >
-                <h1 className="h-full w-full text-center text-8xl font-black text-transparent dark:text-transparent">
+                <h1 className="h-full w-full text-center text-8xl font-black text-transparent">
                   PRIMEIRO PASSO
                 </h1>
               </div>
@@ -29,7 +29,7 @@ export default function Home() {
                 id="gradient2"
                 className="flex w-auto items-center justify-center bg-clip-text pt-5 drop-shadow-lg"
               >
-                <h2 className=" text-center text-5xl font-black text-transparent  dark:text-transparent">
+                <h2 className=" text-center text-5xl font-black text-transparent">
                   EM
                 </h2>
               </div>
@@ -37,7 +37,7 @@ export default function Home() {
                 id="gradient1"
                 className="flex w-auto items-center justify-center bg-clip-text pt-5 drop-shadow-lg"
               >
-                <h2 className=" text-center text-5xl font-black text-transparent dark:text-transparent">
+                <h2 className=" text-center text-5xl font-black text-transparent">
                   BUSCA DO CONHECIMENTO
                 </h2>
               </div>
@@ -45,14 +45,12 @@ export default function Home() {
           </div>
           <div className="flex max-w-[650px]  flex-col items-center justify-center gap-12 text-lg">
             <div className="flex flex-col items-center justify-center gap-[3px]">
-              <h3 className="text-2xl font-bold text-zinc-900 dark:text-white">
+              <h3 className="text-2xl font-bold text-white">
                 Decole em direção ao seu primeiro emprego
               </h3>
-              <p className="max-w-[647px] text-center leading-tight text-zinc-700 dark:text-zinc-200">
+              <p className="max-w-[647px] text-center leading-tight text-zinc-200">
                 A{' '}
-                <span className="font-pacifico text-zinc-800 dark:text-gray-200">
-                  Dev Running
-                </span>{' '}
+                <span className="font-pacifico text-gray-200">Dev Running</span>{' '}
                 é uma plataforma completa para te levar a lugares mais altos. Do
                 básico ao avançado, do simples HTML a conexões entre
                 microsserviços.
