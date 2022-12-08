@@ -36,7 +36,7 @@ const buttonStyles = cva('transition-all z-10 ', {
 })
 
 export interface Props
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+  extends React.HTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonStyles> {
   text: string
 }
