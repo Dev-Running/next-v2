@@ -6,7 +6,7 @@
 
 
 * {
-        @apply m-0 p-0 font-inter text-zinc-200;
+        @apply m-0 p-0 font-inter text-neutral-400;
         margin: 0;
         padding: 0;
 
@@ -16,9 +16,25 @@ p {
         hyphens: auto;
 }
 
+body::-webkit-scrollbar {
+        width: 0.5rem;
+        background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+        width: 0.5rem;
+        @apply bg-black;
+}
+
+body::-webkit-scrollbar-thumb {
+        width: 0.5rem;
+        @apply bg-primary;
+}
+
+
 
 #gradient {
-        background: linear-gradient(92.24deg, #7E22CE 6.92%, #BE123C 105.17%);
+        background: linear-gradient(92.51deg, #000 -6.28%, #CE2222 15.17%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -39,7 +55,7 @@ p {
 }
 
 #gradient2 {
-        background: linear-gradient(94.24deg, #7E22CE -200.92%, #BE123C 105.17%);
+        background: linear-gradient(92.51deg, #000 -300.92%, #CE2222 105.17%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

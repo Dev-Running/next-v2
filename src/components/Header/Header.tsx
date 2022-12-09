@@ -7,7 +7,7 @@ export const Header = () => {
   const [darkMode, setDarkMode] = useState(false)
 
   return (
-    <header className="sticky top-0 z-40 flex h-20 w-full justify-center gap-[12.5rem] border-b-2  border-zinc-700/20  bg-zinc-900/10 drop-shadow-xl backdrop-blur-sm transition-colors">
+    <header className="sticky top-0 z-40 flex h-20 w-full justify-center gap-[12.5rem] border-b-2  border-zinc-700/20  bg-black/5 drop-shadow-xl backdrop-blur-sm transition-colors">
       <div className="flex h-full items-center gap-[23.375rem]">
         <Image
           src="/assets/short-dark-mode-logo.svg"
