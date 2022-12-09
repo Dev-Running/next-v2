@@ -1,5 +1,6 @@
 export * from './Button/Button'
 export * from './Header/Header'
+export * from './pages/Home/Bar'
 export * from './pages/Home/Benefits'
-export * from './pages/Home/OrangeBar'
+export * from './pages/Home/Screenshot'
 export * from './pages/Home/Section1'

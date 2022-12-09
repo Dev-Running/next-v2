@@ -1,19 +1,44 @@
+import clsx from 'clsx'
 import Image from 'next/image'
-
-export const HomeBenefits = () => {
+export const HomeBenefits = ({ active }) => {
   return (
     <>
-      <section className=" group flex w-full items-center justify-center gap-32 bg-neutral-900 py-28">
-        <div className="flex max-w-[1520px]  flex-col items-start justify-center gap-y-[5.938rem]   ">
+      <section
+        id="benefitsHome"
+        className={clsx(
+          'group flex min-h-[calc(100vh-80px)]  w-full items-center justify-center  bg-dark3 transition-all duration-1000',
+          {
+            'gap-48': active === 'benefitsHome',
+            'gap-32': active !== 'benefitsHome',
+          }
+        )}
+      >
+        <div
+          className={clsx(
+            'rounded-lg  bg-gradient-to-r from-dark4  to-dark3  transition-all duration-1000   ',
+            {
+              'opacity-100': active === 'benefitsHome',
+              'opacity-0': active !== 'benefitsHome',
+            }
+          )}
+        >
           <Image
             src="/assets/Rocket.svg"
-            className=" -translate-x-20 translate-y-20 drop-shadow-md transition-all duration-[3s] hover:brightness-110 group-hover:translate-x-10 group-hover:-translate-y-10"
-            width={600}
+            className={clsx(
+              '   drop-shadow-md transition-all duration-1000 ease-in-out  ',
+              {
+                'translate-y-0 translate-x-0 rotate-12 scale-100   opacity-100  brightness-125':
+                  active === 'benefitsHome',
+                '-translate-x-64 translate-y-52  -rotate-45 scale-50 opacity-0':
+                  active !== 'benefitsHome',
+              }
+            )}
+            width={800}
             height={600}
             alt=""
           />
         </div>
-        <div className="flex max-w-[1520px] flex-col items-start justify-center gap-y-[5.938rem]   ">
+        <div className="flex  flex-col items-start justify-center gap-y-[5.925rem]  ">
           <div className="flex w-[621px] max-w-[621px] gap-3">
             <div className="flex items-start">
               <Image
@@ -25,7 +50,14 @@ export const HomeBenefits = () => {
             </div>
 
             <div className="pt-3">
-              <h1 className="text-xl font-bold  drop-shadow-sm">
+              <h1
+                className={clsx(
+                  'text-xl  font-bold  drop-shadow-sm transition-colors',
+                  {
+                    'text-neutral-100': active,
+                  }
+                )}
+              >
                 Economize o seu tempo!
               </h1>
               <p className=" mt-5 text-justify font-light ">
@@ -51,7 +83,14 @@ export const HomeBenefits = () => {
             </div>
 
             <div className="pt-3">
-              <h1 className="text-xl font-bold  drop-shadow-sm">
+              <h1
+                className={clsx(
+                  'text-xl  font-bold  drop-shadow-sm transition-colors',
+                  {
+                    'text-neutral-100': active,
+                  }
+                )}
+              >
                 Masterize tecnologias avancadas!
               </h1>
               <p className=" mt-5 text-justify font-light ">
@@ -79,98 +118,6 @@ export const HomeBenefits = () => {
           </div>
         </div>
       </section>
-      <div className=" flex w-full items-center justify-center  bg-[#111] py-28">
-        <section className="flex max-w-[1520px] flex-col items-start justify-center gap-y-[5.938rem]   ">
-          {
-            // 10.938rem
-          }
-
-          <div className="flex w-[621px] max-w-[621px] gap-3">
-            <div className="flex items-start">
-              <Image
-                alt="123"
-                src="/assets/codesandbox.svg"
-                width={180}
-                height={190}
-              />
-            </div>
-
-            <div className="pt-3">
-              <h1 className="text-xl font-bold  drop-shadow-sm">
-                Aumente sua gama de conhecimento!
-              </h1>
-              <p className=" mt-5 text-justify font-light ">
-                A plataforma conta com o ensino de 2 linguagens de programacao:
-              </p>
-              <ul>
-                <li className="text-justify indent-2 font-light ">
-                  • Javascript - Linguagem super versatil, simples e aplicavel
-                  no Front-end e no Back-end.
-                </li>
-                <li className=" text-justify indent-2 font-light ">
-                  • GoLang - A mais promissora do mercado! Conta com um
-                  desempenho absurdo por sua alta capacidade de trabalhar com
-                  multi-threads.
-                  <span className="font-medium ">
-                    {' '}
-                    Normalmente aplicada na arquitetura de microsservicos para
-                    gerar alto desempenho em determinadas funcionalidades da sua
-                    aplicacao.
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="flex w-[621px] max-w-[621px] gap-3">
-            <div className="flex items-start">
-              <Image
-                alt="Watch"
-                src="/assets/circleDolar.svg"
-                width={90}
-                height={90}
-              />
-            </div>
-
-            <div className="pt-3">
-              <h1 className="text-xl font-bold  drop-shadow-sm">
-                Voce pode ganhar mais!
-              </h1>
-              <p className=" mt-5 text-justify font-light ">
-                Comparado com outras profissoes, um desenvolvedor tem a
-                capacidade de lucrar com diversos tipos de servicos e em areas
-                diferentes.
-              </p>
-              <ul>
-                <p className=" mt-2 text-justify font-medium ">
-                  Formatos de trabalho:
-                </p>
-                <li className=" text-justify indent-2 font-medium ">
-                  • Freelancer
-                </li>
-                <li className=" text-justify indent-2 font-medium ">• CLT</li>
-                <li className=" text-justify indent-2 font-medium ">• PJ</li>
-                <p className=" mt-0 text-justify font-medium ">
-                  Algumas areas:
-                </p>
-                <li className=" text-justify indent-2 font-medium ">
-                  • Front-end - Parte visual e interativa;
-                </li>
-                <li className=" text-justify indent-2 font-medium ">
-                  • Back-end - Regras de negocio e dados;
-                </li>
-                <li className=" indent-2 font-medium ">
-                  • Full-stack - Soluciona problemas e desenvolve tanto no
-                  front-end components;
-                </li>
-                <li className=" text-justify indent-2 font-medium ">
-                  • DevOps - Voltado para infraestrutura monitoracao e etc...
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </div>
     </>
   )
 }

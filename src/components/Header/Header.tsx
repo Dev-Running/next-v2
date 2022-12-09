@@ -1,11 +1,7 @@
 import Image from 'next/image'
-import { useState } from 'react'
 import { Button } from '../Button/Button'
 
 export const Header = () => {
-  let html: HTMLHtmlElement | null
-  const [darkMode, setDarkMode] = useState(false)
-
   return (
     <header className="sticky top-0 z-40 flex h-20 w-full justify-center gap-[12.5rem] border-b  border-zinc-700/20  bg-dark ">
       <div className="flex h-full items-center gap-[23.375rem]">
@@ -51,7 +47,7 @@ export const Header = () => {
         >
           Entrar
         </a>
-        <Button text="CRIAR CONTA" intent="primary" textSize="sm" />
+        <Button text="CRIAR CONTA" intent="light" textSize="sm" />
       </div>
     </header>
   )

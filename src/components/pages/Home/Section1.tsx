@@ -2,9 +2,9 @@ import { Button } from '@/components'
 export const HomeSection1 = () => {
   return (
     <section className="relative flex  flex-col  items-center justify-center gap-10 bg-startGradient  backdrop-blur-3xl">
-      <div className="relative flex min-h-[calc(100vh_-_80px)] w-full flex-col items-center justify-center gap-10 bg-neutral-800  backdrop-blur-sm ">
+      <div className="relative flex min-h-[calc(80vh_-_80px)] w-full flex-col items-center justify-center gap-10 bg-neutral-900/40  backdrop-blur-3xl ">
         <div className="flex flex-col items-center ">
-          <div className=" w- -mt-1 flex items-center justify-center gap-5 ">
+          <div className="-mt-1 flex items-center justify-center gap-5 ">
             <div
               id="gradient"
               className=" flex w-auto  items-center justify-center bg-clip-text pt-[1.15rem] drop-shadow-lg "
@@ -54,18 +54,18 @@ export const HomeSection1 = () => {
             </p>
           </div>
           <div className=" flex items-center gap-10">
-            <div className="flex items-center justify-center rounded-[4px]  border-dark bg-dark p-[2px] hover:border-neutral-700/90 hover:bg-neutral-900">
+            <div className="flex items-center justify-center rounded-[4px] border-2 border-dark bg-dark p-[2px] transition-all hover:border-neutral-900 hover:bg-neutral-900">
               <Button
                 text="INICIAR JORNADA"
-                intent="dark"
+                intent="light"
                 size="lg"
                 textSize="sm"
               />
             </div>
-            <div className="flex items-center justify-center rounded-[4px]  border-dark bg-dark p-[2px] hover:border-neutral-700/90 hover:bg-neutral-900">
+            <div className="gradientPrimary flex  items-center justify-center  rounded-[4px] border-dark bg-dark p-[2px]  hover:border-neutral-700/90 hover:bg-neutral-900 ">
               <Button
                 text="TODOS OS CURSOS"
-                intent="dark"
+                intent="outlineGradientHomeStart"
                 textSize="sm"
                 size="lg"
               />
