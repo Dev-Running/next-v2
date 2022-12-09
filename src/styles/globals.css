@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
 
 
 #gradient {
-        background: linear-gradient(92.51deg, #000 -6.28%, #CE2222 15.17%);
+        background: linear-gradient(92.51deg, #212121 -60.28%, #F17C11 50.17%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #gradient1 {
-        background: linear-gradient(90.88deg, #DC2626 23.35%, #FFB703 110.37%);
+        background: linear-gradient(90.88deg, #F17C11 23.35%, #FFB703 110.37%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -56,7 +56,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #gradient2 {
-        background: linear-gradient(92.51deg, #000 -300.92%, #CE2222 105.17%);
+        background: linear-gradient(92.51deg, #212121 -60.92%, #F17C11 105.17%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
