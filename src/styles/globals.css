@@ -12,6 +12,7 @@
 
 }
 
+
 p {
         hyphens: auto;
 }
@@ -66,19 +67,4 @@ body::-webkit-scrollbar-thumb {
         filter: drop-shadow(0px 0px 60px #FFB70360);
         backdrop-filter: blur(10px);
         background: linear-gradient(to left, #DC2626 23.35%, #FFB703 110.37%);
-}
-
-
-@keyframes aaa {
-        0% {
-                background: linear-gradient(92.24deg, #7E22CE 6.92%, #BE123C 105.17%);
-        }
-
-        50% {
-                background: linear-gradient(92.24deg, #BE123C 6.92%, #7E22CE 105.17%);
-        }
-
-        100% {
-                background: linear-gradient(92.24deg, #7E22CE 6.92%, #BE123C 105.17%);
-        }
 }

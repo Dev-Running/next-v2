@@ -6,6 +6,11 @@ module.exports = {
     extend: {
       colors: {
         primary: '#F17C11',
+        dark: '#111111',
+        dark2: '#131313',
+        dark3: '#171717',
+        dark4: '#212121',
+        darkLogo: '#18181b',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
@@ -15,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         startGradient:
-          'linear-gradient(180deg, #000000 11.28%, #18001B 44.55%, rgba(0, 0, 0, 0.31) 100%)',
+          'linear-gradient(180deg, #090909 11.28%, #18001Baa 44.55%, #090909 100%)',
       },
     },
   },

@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-      <main className="relative  bg-black">
+      <main className="relative  bg-neutral-900 ">
         <Header />
         <HomeSection1 />
         <HomeOrangeBar />
