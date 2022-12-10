@@ -38,7 +38,7 @@ export const HomeSection1 = () => {
             <div className="homeTitleButtonShadow">
               <Button
                 text="INICIAR JORNADA"
-                intent="primary"
+                intent="light"
                 size="lg"
                 textSize="sm"
               />
@@ -49,7 +49,7 @@ export const HomeSection1 = () => {
                 text="TODOS OS CURSOS"
                 size="lg"
                 outlinePadding="2px "
-                gradient="linear-gradient(92.51deg, #ff512f 0.0%, #dd2476 100%)"
+                gradient="linear-gradient(92.51deg, #ff512f 0.0%,  #dd2476 100%)"
               />
             </div>
           </div>

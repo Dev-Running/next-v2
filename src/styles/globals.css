@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .homeTitleGradient {
-        background: linear-gradient(92.51deg, #ff512f 0.0%, #dd2476 100%);
+        background: linear-gradient(92.51deg, #ff512f 45.0%, #dd2476 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

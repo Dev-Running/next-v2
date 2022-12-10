@@ -1,4 +1,5 @@
 import {
+  Footer,
   Header,
   HomeBar,
   HomeBenefits,
@@ -35,7 +36,7 @@ export default function Home() {
         <HomeBar />
         <HomeScreenshot active={active} />
         <HomeBenefits active={active} />
-        <div className="h-screen w-full bg-dark"></div>
+        <Footer />
       </main>
     </>
   )

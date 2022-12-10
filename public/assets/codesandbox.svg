@@ -13,16 +13,16 @@
 <path d="M20 52.2501V38.4751L8 31.7251" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <radialGradient id="paint0_radial_125_177" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 12.0319) rotate(90) scale(6.74312 12.25)">
-<stop stop-color="#FBBF24"/>
-<stop offset="1" stop-color="#F17C11"/>
+<stop stop-color="#FF512F"/>
+<stop offset="1" stop-color="#FF512F"/>
 </radialGradient>
 <radialGradient id="paint1_radial_125_177" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 41.9876) rotate(90) scale(10.2625 6)">
-<stop stop-color="#FBBF24"/>
-<stop offset="1" stop-color="#F17C11"/>
+<stop stop-color="#FF512F"/>
+<stop offset="1" stop-color="#FF512F"/>
 </radialGradient>
 <radialGradient id="paint2_radial_125_177" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(14 41.9876) rotate(90) scale(10.2625 6)">
-<stop stop-color="#FBBF24"/>
-<stop offset="1" stop-color="#F17C11"/>
+<stop stop-color="#FF512F"/>
+<stop offset="1" stop-color="#FF512F"/>
 </radialGradient>
 </defs>
 </svg>

@@ -1,4 +1,5 @@
 export * from './Button/Button'
+export * from './Footer/Footer'
 export * from './Header/Header'
 export * from './pages/Home/Bar'
 export * from './pages/Home/Benefits'

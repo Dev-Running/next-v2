@@ -22,7 +22,7 @@ export const HomeBenefits = ({ active }: { active: string }) => {
           <Image
             src="/assets/Rocket.svg"
             className={clsx(
-              '   drop-shadow-md transition-all duration-1000 ease-in-out  ',
+              '   drop-shadow-sm transition-all duration-1000 ease-in-out  ',
               {
                 'translate-y-0 translate-x-0 rotate-12 scale-100   opacity-100  brightness-125':
                   active === 'benefitsHome',
@@ -30,7 +30,7 @@ export const HomeBenefits = ({ active }: { active: string }) => {
                   active !== 'benefitsHome',
               }
             )}
-            width={800}
+            width={600}
             height={600}
             alt=""
           />
