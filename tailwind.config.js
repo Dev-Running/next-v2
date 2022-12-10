@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#ffb703',
+        primary: '#ff512f',
         dark: '#111111',
         dark2: '#131313',
         dark3: '#171717',
@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         startGradient:
-          'linear-gradient(180deg, #000 11.28%, #18001Baa 44.55%, #000 100%)',
+          'linear-gradient(180deg, #000 11.28%, #18001B 44.55%, #000 100%)',
       },
     },
   },

@@ -1,12 +1,12 @@
 import clsx from 'clsx'
 import Image from 'next/image'
-export const HomeBenefits = ({ active }) => {
+export const HomeBenefits = ({ active }: { active: string }) => {
   return (
     <>
       <section
         id="benefitsHome"
         className={clsx(
-          'group flex min-h-[calc(100vh-80px)]  w-full items-center justify-center  bg-dark3 transition-all duration-1000',
+          'group flex min-h-[calc(100vh-80px)]   w-full items-center justify-center  bg-dark3 transition-all duration-1000',
           {
             'gap-48': active === 'benefitsHome',
             'gap-32': active !== 'benefitsHome',
@@ -14,13 +14,10 @@ export const HomeBenefits = ({ active }) => {
         )}
       >
         <div
-          className={clsx(
-            'rounded-lg  bg-gradient-to-r from-dark4  to-dark3  transition-all duration-1000   ',
-            {
-              'opacity-100': active === 'benefitsHome',
-              'opacity-0': active !== 'benefitsHome',
-            }
-          )}
+          className={clsx('rounded-lg    transition-all duration-1000   ', {
+            'opacity-100': active === 'benefitsHome',
+            'opacity-0': active !== 'benefitsHome',
+          })}
         >
           <Image
             src="/assets/Rocket.svg"
@@ -38,7 +35,15 @@ export const HomeBenefits = ({ active }) => {
             alt=""
           />
         </div>
-        <div className="flex  flex-col items-start justify-center gap-y-[5.925rem]  ">
+        <div
+          className={clsx(
+            'flex  h-full flex-col items-start justify-center gap-y-[5.925rem] rounded-lg transition-all duration-1000 ',
+            {
+              'opacity-100': active === 'benefitsHome',
+              'opacity-0': active !== 'benefitsHome',
+            }
+          )}
+        >
           <div className="flex w-[621px] max-w-[621px] gap-3">
             <div className="flex items-start">
               <Image

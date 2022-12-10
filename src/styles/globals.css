@@ -34,8 +34,8 @@ body::-webkit-scrollbar-thumb {
 
 
 
-#gradient {
-        background: linear-gradient(92.51deg, #212121 -60.28%, #F17C11 50.17%);
+.homeTitleGradient {
+        background: linear-gradient(92.51deg, #ff512f 0.0%, #dd2476 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -62,9 +62,14 @@ body::-webkit-scrollbar-thumb {
         -webkit-text-fill-color: transparent;
 }
 
-.gradientPrimary {
-        border-radius: 4px;
-        filter: drop-shadow(0px 0px 60px #FFB70360);
-        backdrop-filter: blur(10px);
-        background: linear-gradient(to left, #DC2626 23.35%, #FFB703 110.37%);
+.homeTitleButtonShadow {
+        filter: drop-shadow(0px 0px 60px #dd247640);
+}
+
+.homeTitleButtonShadow2 {
+        filter: drop-shadow(0px 0px 60px #ff512f40);
+}
+
+.homeTitleShadow {
+        filter: drop-shadow(0px 0px 60px #dd247640);
 }

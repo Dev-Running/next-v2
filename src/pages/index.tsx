@@ -10,14 +10,20 @@ export default function Home() {
   const [active, setActive] = useState('')
   useEffect(() => {
     window.onscroll = () => {
-      const element = document.getElementById('screenshotHome')
+      const screenshot = document.getElementById('screenshotHome')
+      const benefits = document.getElementById('benefitsHome')
       if (
-        window.scrollY >= element.offsetTop - 400 &&
-        window.scrollY <= element?.offsetTop + 400
+        window.scrollY >= screenshot.offsetTop - 400 &&
+        window.scrollY <= screenshot.offsetTop + 400
       ) {
         setActive('screenshotHome')
-      } else {
+      } else if (
+        window.scrollY >= screenshot.offsetTop + 401 &&
+        window.scrollY <= benefits.offsetTop + 400
+      ) {
         setActive('benefitsHome')
+      } else {
+        setActive('')
       }
     }
   }, [])

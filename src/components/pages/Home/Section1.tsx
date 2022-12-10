@@ -1,43 +1,24 @@
 import { Button } from '@/components'
+import { ButtonOutlinedGradient } from '@/components/Button/OutlinedGradient'
 export const HomeSection1 = () => {
   return (
-    <section className="relative flex  flex-col  items-center justify-center gap-10 bg-startGradient  backdrop-blur-3xl">
+    <section className="relative flex  flex-col  items-center justify-center gap-10 bg-black    backdrop-blur-3xl">
       <div className="relative flex min-h-[calc(80vh_-_80px)] w-full flex-col items-center justify-center gap-10 bg-neutral-900/40  backdrop-blur-3xl ">
-        <div className="flex flex-col items-center ">
-          <div className="-mt-1 flex items-center justify-center gap-5 ">
-            <div
-              id="gradient"
-              className=" flex w-auto  items-center justify-center bg-clip-text pt-[1.15rem] drop-shadow-lg "
-            >
-              <h1 className="h-full w-full  text-center text-8xl font-black text-transparent">
-                DÊ O
-              </h1>
+        <div className="homeTitleShadow">
+          <div className="flex flex-col items-center ">
+            <div className="-mt-1 flex items-center justify-center gap-5 ">
+              <div className=" homeTitleGradient flex w-auto items-center justify-center bg-clip-text pt-[1.15rem] drop-shadow-lg ">
+                <h1 className="h-full w-full  text-center text-8xl font-black text-transparent">
+                  DÊ O PRIMEIRO PASSO
+                </h1>
+              </div>
             </div>
-            <div
-              id="gradient1"
-              className="flex w-auto items-center justify-center bg-clip-text pt-4 drop-shadow-lg"
-            >
-              <h1 className="h-full w-full text-center text-8xl font-black text-transparent">
-                PRIMEIRO PASSO
-              </h1>
-            </div>
-          </div>
-          <div className=" -mt-4 -ml-2 flex items-center justify-center gap-3 ">
-            <div
-              id="gradient2"
-              className="flex w-auto items-center justify-center bg-clip-text pt-5 drop-shadow-lg"
-            >
-              <h2 className=" text-center text-5xl font-black text-transparent">
-                EM
-              </h2>
-            </div>
-            <div
-              id="gradient1"
-              className="flex w-auto items-center justify-center bg-clip-text pt-5 drop-shadow-lg"
-            >
-              <h2 className=" text-center text-5xl font-black text-transparent">
-                BUSCA DO CONHECIMENTO
-              </h2>
+            <div className="  -mt-4 -ml-2 flex items-center justify-center gap-3 ">
+              <div className="homeTitleGradient flex w-auto items-center justify-center bg-clip-text pt-5 drop-shadow-lg">
+                <h2 className=" text-center text-5xl font-black text-transparent">
+                  EM BUSCA DO CONHECIMENTO
+                </h2>
+              </div>
             </div>
           </div>
         </div>
@@ -54,20 +35,21 @@ export const HomeSection1 = () => {
             </p>
           </div>
           <div className=" flex items-center gap-10">
-            <div className="flex items-center justify-center rounded-[4px] border-2 border-dark bg-dark p-[2px] transition-all hover:border-neutral-900 hover:bg-neutral-900">
+            <div className="homeTitleButtonShadow">
               <Button
                 text="INICIAR JORNADA"
-                intent="light"
+                intent="primary"
                 size="lg"
                 textSize="sm"
               />
-            </div>
-            <div className="gradientPrimary flex  items-center justify-center  rounded-[4px] border-dark bg-dark p-[2px]  hover:border-neutral-700/90 hover:bg-neutral-900 ">
-              <Button
+            </div>{' '}
+            <div className="homeTitleButtonShadow2">
+              <ButtonOutlinedGradient
+                intent="home"
                 text="TODOS OS CURSOS"
-                intent="outlineGradientHomeStart"
-                textSize="sm"
                 size="lg"
+                outlinePadding="2px "
+                gradient="linear-gradient(92.51deg, #ff512f 0.0%, #dd2476 100%)"
               />
             </div>
           </div>

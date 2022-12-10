@@ -47,7 +47,7 @@ export const Header = () => {
         >
           Entrar
         </a>
-        <Button text="CRIAR CONTA" intent="light" textSize="sm" />
+        <Button text="CRIAR CONTA" intent="primary" textSize="sm" />
       </div>
     </header>
   )
