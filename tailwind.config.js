@@ -7,9 +7,9 @@ module.exports = {
       colors: {
         primary: '#ff512f',
         dark: '#111111',
-        dark2: '#131313',
-        dark3: '#171717',
-        dark4: '#212121',
+        dark1: '#131313',
+        dark2: '#171717',
+        dark3: '#212121',
         darkLogo: '#18181b',
       },
       fontFamily: {

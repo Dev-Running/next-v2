@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const HomeScreenshot = ({ active }: { active: string }) => {
   return (
-    <div className=" bg-dark2">
+    <div className=" bg-dark1">
       <section
         id="screenshotHome"
         className={clsx(

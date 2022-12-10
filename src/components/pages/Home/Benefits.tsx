@@ -6,7 +6,7 @@ export const HomeBenefits = ({ active }: { active: string }) => {
       <section
         id="benefitsHome"
         className={clsx(
-          'group flex min-h-[calc(100vh-80px)]   w-full items-center justify-center  bg-dark3 transition-all duration-1000',
+          'group flex min-h-[calc(100vh-80px)]   w-full items-center justify-center  bg-dark2 transition-all duration-1000',
           {
             'gap-48': active === 'benefitsHome',
             'gap-32': active !== 'benefitsHome',
