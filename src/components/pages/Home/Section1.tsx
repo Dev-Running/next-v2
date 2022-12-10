@@ -2,8 +2,8 @@ import { Button } from '@/components'
 import { ButtonOutlinedGradient } from '@/components/Button/OutlinedGradient'
 export const HomeSection1 = () => {
   return (
-    <section className="relative flex  flex-col  items-center justify-center gap-10 bg-black    backdrop-blur-3xl">
-      <div className="relative flex min-h-[calc(80vh_-_80px)] w-full flex-col items-center justify-center gap-10 bg-neutral-900/40  backdrop-blur-3xl ">
+    <section className="relative flex  flex-col  items-center justify-center gap-10 bg-dark0   backdrop-blur-3xl">
+      <div className="relative flex min-h-[calc(80vh_-_80px)] w-full flex-col items-center justify-center gap-10  backdrop-blur-3xl ">
         <div className="homeTitleShadow">
           <div className="flex flex-col items-center ">
             <div className="-mt-1 flex items-center justify-center gap-5 ">

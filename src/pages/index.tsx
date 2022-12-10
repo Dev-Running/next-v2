@@ -14,12 +14,12 @@ export default function Home() {
       const screenshot = document.getElementById('screenshotHome')
       const benefits = document.getElementById('benefitsHome')
       if (
-        window.scrollY >= screenshot.offsetTop - 400 &&
-        window.scrollY <= screenshot.offsetTop + 400
+        window.scrollY >= screenshot.offsetTop - 600 &&
+        window.scrollY <= screenshot.offsetTop + 300
       ) {
         setActive('screenshotHome')
       } else if (
-        window.scrollY >= screenshot.offsetTop + 401 &&
+        window.scrollY >= screenshot.offsetTop + 301 &&
         window.scrollY <= benefits.offsetTop + 400
       ) {
         setActive('benefitsHome')

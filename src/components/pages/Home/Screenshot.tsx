@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 export const HomeScreenshot = ({ active }: { active: string }) => {
   return (
-    <div className=" bg-dark1">
+    <div className=" bg-dark">
       <section
         id="screenshotHome"
         className={clsx(
-          'group flex min-h-[calc(100vh-80px)] flex-row justify-center   transition-all duration-1000 ',
+          'group flex min-h-[calc(100vh-160px)] flex-row justify-center   transition-all duration-1000 ',
           {
             'gap-48 opacity-100': active === 'screenshotHome',
             'gap-32 opacity-0': active !== 'screenshotHome',

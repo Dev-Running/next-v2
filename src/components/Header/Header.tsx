@@ -3,7 +3,7 @@ import { Button } from '../Button/Button'
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 z-40 flex h-20 w-full justify-center gap-[12.5rem] border-b  border-zinc-700/20  bg-dark ">
+    <header className="sticky top-0 z-40 flex h-20 w-full justify-center gap-[12.5rem] border-b  border-zinc-700/20  bg-dark0 ">
       <div className="flex h-full items-center gap-[23.375rem]">
         <Image
           src="/assets/short-dark-mode-logo.svg"
