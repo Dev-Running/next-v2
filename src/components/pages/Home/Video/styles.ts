@@ -1,6 +1,6 @@
-import { styled } from '@/libs/stitches'
+import { css } from '@/libs/stitches'
 
-export const VideoBoxSectionStyled = styled('section', {
+export const VideoBoxSectionCSS = css({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -8,7 +8,7 @@ export const VideoBoxSectionStyled = styled('section', {
   backgroundColor: '$dark-100',
 })
 
-export const VideoBoxStyled = styled('div', {
+export const VideoBoxCSS = css({
   display: 'flex',
   position: 'relative',
   alignItems: 'center',
@@ -35,7 +35,7 @@ export const VideoBoxStyled = styled('div', {
   },
 })
 
-export const VideoStyled = styled('div', {
+export const VideoCSS = css({
   display: 'flex',
   aspectRatio: '16 / 9',
   height: '27rem',

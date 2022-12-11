@@ -1,6 +1,6 @@
-import { styled } from '@/libs/stitches'
+import { css } from '@/libs/stitches'
 
-export const BarStyled = styled('section', {
+export const BarCSS = css({
   display: 'flex',
   fontWeight: '$medium',
   backgroundColor: '$dark',

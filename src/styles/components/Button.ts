@@ -1,6 +1,6 @@
 import { css } from '@/libs/stitches'
 
-export const buttonStyles = css({
+export const buttonCSS = css({
   transition: 'all 0.2s ease-in-out',
   display: 'flex',
   alignItems: 'center',

@@ -1,4 +1,4 @@
 import { styled } from '@/libs/stitches'
-import { buttonStyles } from '@/styles/components/Button'
+import { buttonCSS } from '@/styles/components'
 
-export const Button = styled('button', buttonStyles)
+export const Button = styled('button', buttonCSS)
