@@ -213,88 +213,9 @@ export const {
       animation: `${value}`,
     }),
 
-    m: (value: string) => ({
-      margin: value,
-    }),
-
-    mt: (value: string) => ({
-      marginTop: value,
-    }),
-
-    mr: (value: string) => ({
-      marginRight: value,
-    }),
-
-    mb: (value: string) => ({
-      marginBottom: value,
-    }),
-
-    ml: (value: string) => ({
-      marginLeft: value,
-    }),
-
-    mx: (value: string) => ({
-      marginLeft: value,
-      marginRight: value,
-    }),
-
-    my: (value: string) => ({
-      marginTop: value,
-      marginBottom: value,
-    }),
-
-    p: (value: string) => ({
-      padding: value,
-    }),
-
-    pt: (value: string) => ({
-      paddingTop: value,
-    }),
-
-    pr: (value: string) => ({
-      paddingRight: value,
-    }),
-
-    pb: (value: string) => ({
-      paddingBottom: value,
-    }),
-
-    pl: (value: string) => ({
-      paddingLeft: value,
-    }),
-
-    px: (value: string) => ({
-      paddingLeft: value,
-      paddingRight: value,
-    }),
-
-    py: (value: string) => ({
-      paddingTop: value,
-      paddingBottom: value,
-    }),
-
     size: (value: string) => ({
       width: value,
       height: value,
-    }),
-
-    scale: (value: string) => ({
-      transform: `scale(${value})`,
-    }),
-
-    rotate: (value: string) => ({
-      transform: `rotate(${value})`,
-    }),
-
-    translate: (value: string) => ({
-      transform: `translate(${value})`,
-    }),
-
-    translateX: (value: string) => ({
-      transform: `translateX(${value})`,
-    }),
-    translateY: (value: string) => ({
-      transform: `translateY(${value})`,
     }),
 
     borderLinearGradient: (value: string) => ({
