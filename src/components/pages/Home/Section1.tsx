@@ -1,5 +1,4 @@
 import { Button } from '@/components'
-import { ButtonOutlinedGradient } from '@/components/Button/OutlinedGradient'
 export const HomeSection1 = () => {
   return (
     <section className="relative flex  flex-col  items-center justify-center gap-10 bg-dark0   backdrop-blur-3xl">
@@ -35,23 +34,22 @@ export const HomeSection1 = () => {
             </p>
           </div>
           <div className=" flex items-center gap-10">
-            <div className="homeTitleButtonShadow">
-              <Button
-                text="INICIAR JORNADA"
-                intent="light"
-                size="lg"
-                textSize="sm"
-              />
-            </div>{' '}
-            <div className="homeTitleButtonShadow2">
-              <ButtonOutlinedGradient
-                intent="home"
-                text="TODOS OS CURSOS"
-                size="lg"
-                outlinePadding="2px "
-                gradient="linear-gradient(92.51deg, #ff512f 0.0%,  #dd2476 100%)"
-              />
-            </div>
+            <Button intent="lightHomeStart" size="lg" text-size="sm">
+              INICIAR JORNADA
+            </Button>
+            {/* <div
+              style={{
+                backgroundImage:
+                  'linear-gradient(92.51deg, #ff512f 0.0%,  #dd2476 100%)',
+                padding: '1px',
+                borderRadius: '4px',
+              }}
+              className="homeTitleButtonShadow2"
+            > */}
+            <Button size="lg" intent="outlinedGradientHomeStart" text-size="sm">
+              TODOS OS CURSOS
+            </Button>
+            {/* </div> */}
           </div>
         </div>
       </div>

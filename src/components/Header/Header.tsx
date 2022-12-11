@@ -1,5 +1,5 @@
+import { Button } from '@/components'
 import Image from 'next/image'
-import { Button } from '../Button/Button'
 
 export const Header = () => {
   return (
@@ -47,7 +47,9 @@ export const Header = () => {
         >
           Entrar
         </a>
-        <Button text="CRIAR CONTA" intent="primary" textSize="sm" />
+        <Button intent="primary" text-size="sm">
+          CRIAR CONTA
+        </Button>
       </div>
     </header>
   )

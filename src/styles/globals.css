@@ -73,9 +73,7 @@ body::-webkit-scrollbar-thumb {
         -webkit-text-fill-color: transparent;
 }
 
-.homeTitleButtonShadow {
-        filter: drop-shadow(0px 0px 60px #dd247640);
-}
+
 
 .homeTitleButtonShadow2 {
         filter: drop-shadow(0px 0px 60px #ff512f40);
