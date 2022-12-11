@@ -1,5 +1,5 @@
 import { Button } from '@/components'
-export const HomeSection1 = () => {
+export const HomeBrand = () => {
   return (
     <section className="relative flex  flex-col  items-center justify-center gap-10 bg-dark0   backdrop-blur-3xl">
       <div className="relative flex min-h-[calc(80vh_-_80px)] w-full flex-col items-center justify-center gap-10  backdrop-blur-3xl ">

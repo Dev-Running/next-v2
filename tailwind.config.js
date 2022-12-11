@@ -13,6 +13,7 @@ module.exports = {
         dark3: '#212121',
         darkLogo: '#18181b',
       },
+
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],

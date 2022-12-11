@@ -16,7 +16,7 @@ export const buttonStyles = css({
         },
       },
       dark: {
-        backgroundColor: '$',
+        backgroundColor: '$dark',
         color: '$neutral-300',
         '&:hover': {
           backgroundColor: '$dark-300',

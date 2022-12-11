@@ -3,8 +3,8 @@ import {
   Header,
   HomeBar,
   HomeBenefits,
+  HomeBrand,
   HomeScreenshot,
-  HomeSection1,
   HomeVideo,
 } from '@/components'
 
@@ -34,7 +34,7 @@ export default function Home() {
     <>
       <main className="relative  bg-neutral-900 ">
         <Header />
-        <HomeSection1 />
+        <HomeBrand />
         <HomeBar />
         <HomeVideo />
         <HomeScreenshot active={active} />
