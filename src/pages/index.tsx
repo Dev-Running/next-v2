@@ -5,7 +5,9 @@ import {
   HomeBenefits,
   HomeScreenshot,
   HomeSection1,
+  HomeVideo,
 } from '@/components'
+
 import { useEffect, useState } from 'react'
 export default function Home() {
   const [active, setActive] = useState('')
@@ -14,7 +16,7 @@ export default function Home() {
       const screenshot = document.getElementById('screenshotHome')
       const benefits = document.getElementById('benefitsHome')
       if (
-        window.scrollY >= screenshot.offsetTop - 600 &&
+        window.scrollY >= screenshot.offsetTop - 780 &&
         window.scrollY <= screenshot.offsetTop + 300
       ) {
         setActive('screenshotHome')
@@ -34,6 +36,7 @@ export default function Home() {
         <Header />
         <HomeSection1 />
         <HomeBar />
+        <HomeVideo />
         <HomeScreenshot active={active} />
         <HomeBenefits active={active} />
         <Footer />

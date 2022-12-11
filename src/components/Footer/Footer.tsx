@@ -1,4 +1,8 @@
 import Image from 'next/image'
+import { Contacts } from './Contacts'
+import { Courses } from './Courses'
+import { Platform } from './Platform'
+import { Politics } from './Politics'
 
 export const Footer = () => {
   return (
@@ -13,27 +17,16 @@ export const Footer = () => {
         <Image
           alt=""
           src="/assets/dark-mode-logo-footer.svg"
-          className="-mt-5"
+          className="-mt-24"
           width={244}
           height={232.81}
           quality={100}
         />
-        <section className="flex gap-10">
-          <div className="mr-20 flex flex-col gap-4">
-            <h1 className="font-semibold text-neutral-200">Contatos</h1>
-            <div>
-              <h2 className="font-medium text-neutral-300">Lucas Laurentino</h2>
-              <a href="" className="text-neutral-400">
-                laurentinodeev@gmail.com
-              </a>
-            </div>
-            <div>
-              <h2 className="font-medium text-neutral-300">Suporte</h2>
-              <a href="" className="text-neutral-400">
-                devrunning@gmail.com
-              </a>
-            </div>
-          </div>
+        <Contacts />
+        <section className="flex gap-0">
+          <Courses />
+          <Platform />
+          <Politics />
         </section>
       </footer>
     </div>

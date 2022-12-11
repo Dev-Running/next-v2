@@ -1,0 +1,32 @@
+.videoHomeEffect {
+        position: relative;
+
+        overflow: hidden;
+}
+
+.videoHomeEffect::before {
+        content: "";
+        height: 60rem;
+        width: 15rem;
+        background: linear-gradient(92.51deg, #ff512f 0.0%, #dd2476 100%);
+        position: absolute;
+        animation: rotate 3.5s linear infinite;
+}
+
+@keyframes rotate {
+        from {
+                transform: rotateZ(0deg);
+        }
+
+        to {
+                transform: rotateZ(360deg);
+        }
+}
+
+.videoHomeEffect::after {
+        content: "";
+        height: 40.5rem;
+        width: 19.5rem;
+        position: absolute;
+        border-radius: var(--border-radius);
+}

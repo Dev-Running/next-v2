@@ -9,8 +9,8 @@ export const HomeScreenshot = ({ active }: { active: string }) => {
         className={clsx(
           'group flex min-h-[calc(100vh-160px)] flex-row justify-center   transition-all duration-1000 ',
           {
-            'gap-48 opacity-100': active === 'screenshotHome',
-            'gap-32 opacity-0': active !== 'screenshotHome',
+            'gap-36 opacity-100': active === 'screenshotHome',
+            'gap-20  opacity-0': active !== 'screenshotHome',
           }
         )}
       >
@@ -104,10 +104,10 @@ export const HomeScreenshot = ({ active }: { active: string }) => {
         <Image
           alt="Foto de uma aula"
           src="/assets/home-screenshot.svg"
-          width={800}
+          width={1000}
           className={clsx('transition-all duration-1000 ease-in-out ', {
-            'scale-125': active === 'screenshotHome',
-            'scale-100': active !== 'screenshotHome',
+            'scale-100': active === 'screenshotHome',
+            'scale-75': active !== 'screenshotHome',
           })}
           height={500.13}
         />

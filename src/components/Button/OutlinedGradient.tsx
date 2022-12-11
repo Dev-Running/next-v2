@@ -52,7 +52,7 @@ export const ButtonOutlinedGradient = ({
   return (
     <div
       style={{ backgroundImage: gradient, padding: outlinePadding }}
-      className={buttonStyles({ rounded })}
+      className={buttonStyles({ rounded }) + ' AnimateBGButtonGradient'}
     >
       <button className={buttonStyles({ size, intent, weight })} {...props}>
         {text}
